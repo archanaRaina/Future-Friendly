@@ -1,0 +1,115 @@
+
+
+    
+    
+     body {
+
+        font-family: 'Baloo Bhai';
+        font-size: 22px;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('abs-gf3699ab25_1920.jpg');
+    }
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 24px;
+        top: 8px;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 72px;
+        filter: invert(100);
+
+    }
+
+    .left div {
+        line-height: 17px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 62%;
+        margin: 58px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 13px;
+        top: 76px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 40px 8px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai';
+        margin: 0px 3px;
+        background-color: black;
+        color: white;
+        padding: 3px 5px;
+        border: 2px solid rgb(75, 64, 64);
+        border-radius: 8px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+
+    }
+
+    .container {
+        text-align: center;
+        border: 2px solid white;
+        margin: 41px 68px;
+        padding:7px 25px;
+        width: 38%;
+        border-radius: 11px;
+
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai';
+        text-align: center;
+        display: block;
+        width: 267px;
+        padding: 4px;
+        border:2px solid black;
+        margin: 7px auto;
+    }
+
+    .container button {
+        
+        display: block;
+        width:267px;
+        margin: auto;
+    }
